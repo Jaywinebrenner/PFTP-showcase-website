@@ -35,7 +35,7 @@ const Body = () => {
             <h1 className="headerTextGray">
               Simply open the Fruit Tree Finder and browse the map containing
               all of the trees available for gleaning in your area.  A bottom
-              drawer lists the trees by how close they are your current
+              drawer lists the trees by how close they are to your current
               location.
             </h1>
           </Col>
