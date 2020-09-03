@@ -2,6 +2,7 @@
 import { Container, Row, Col } from "reactstrap";
 import React from "react";
 import still from "./media/still.png";
+import one from "./media/still.png"
 import two from "./media/two.gif";
 import three from "./media/three.gif";
 import four from "./media/four.gif";
@@ -34,7 +35,8 @@ const Body = () => {
             <h1 className="headerTextGray">
               Simply open the Fruit Tree Finder and browse the map containing
               all of the trees available for gleaning in your area.  A bottom
-              drawer lists the trees by how close they are to you.
+              drawer lists the trees by how close they are your current
+              location.
             </h1>
           </Col>
 
@@ -73,16 +75,27 @@ const Body = () => {
             <h1 className="headerTextGray">
               If you see a tree in your neighborhood who’s fruit sadly goes
               unpicked, enter it in the Fruit Tree Finder. Simply sign in, add a
-              tree and voila! You will have made a small yet power contribution
-              to help those in want and reduce needless food waste.
+              tree and voila! You will have made a small yet powerful
+              contribution to help those in want and reduce needless food waste.
             </h1>
           </Col>
 
           <Col>
             <img className="still" src={four} alt="Logo" />
           </Col>
-    
         </Row>
+      </Container>
+
+      <Container className="summaryBody">
+        <h1 className="headerTextMaroon">Summary</h1>
+        <h6 className="headerTextGray">
+          This app was an idea I came up with and pitched to local non-profit Portland Fruit Tree Finder. My goal is to create a vibrant
+          community of people who input trees to document the Portland metro
+          area of all the uneaten fruit that falls to waste. I ultimately
+          foresee this application as a vibrant community resource where one
+          could simply open the app, go on a stroll and glean your breakfast,
+          snacks, fruit for jams or pies.
+        </h6>
       </Container>
     </Container>
   );
