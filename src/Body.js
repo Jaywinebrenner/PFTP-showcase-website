@@ -1,18 +1,14 @@
 
 import { Container, Row, Col } from "reactstrap";
 import React from "react";
+import still from "./media/still.png";
+import two from "./media/two.gif";
+import three from "./media/three.gif";
+import four from "./media/four.gif";
 
 const Body = () => {
   return (
     <Container className="bodyContainer">
-      <Container className="topBody">
-        <h6>
-          This website showcases the Mobile App for the Portland Fruit Tree
-          Project Mobile Application by Jay Winebrenner. It is a cross platform,
-          serverless application using React Native, Firebase and Redux.
-        </h6>
-      </Container>
-
       <Container className="secondBody">
         <Row>
           <Col>
@@ -20,12 +16,72 @@ const Body = () => {
               Help eliminate needless food waste
             </h1>
             <h1 className="headerTextGray">
-              The Fruit Tree Finder connects people to the plentiful fruit tree
-              bounties in their very neighborhood
+              The Portland Fruit Tree Project Mobile App connects people to the
+              plentiful fruit tree bounties in their very neighborhood
             </h1>
           </Col>
 
-          <Col></Col>
+          <Col>
+            <img className="still" src={still} alt="Logo" />
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="thridBody">
+        <Row>
+          <Col>
+            <h1 className="headerTextMaroon">Find Trees </h1>
+            <h1 className="headerTextGray">
+              Simply open the Fruit Tree Finder and browse the map containing
+              all of the trees available for gleaning in your area.  A bottom
+              drawer lists the trees by how close they are to you.
+            </h1>
+          </Col>
+
+          <Col>
+            <img className="still" src={two} alt="Logo" />
+          </Col>
+        </Row>
+      </Container>
+
+      <Container className="thridBody">
+        <Row>
+          <Col>
+            <h1 className="headerTextMaroon">Narrow your search</h1>
+            <h1 className="headerTextGray">
+              Filter your tree map by toggling the dropdown. Display only
+              Verified Trees or All the Trees available.
+            </h1>
+          </Col>
+
+          <Col>
+            <img className="still" src={three} alt="Logo" />
+          </Col>
+          <p className="italic">
+            NOTE: Verified Trees are not yet in the database. Verified trees are
+            trees who are connected with the PFTP and are happy to share their
+            bounty with hungry gleaners. Non-verified trees are user submitted
+            trees.
+          </p>
+        </Row>
+      </Container>
+
+      <Container className="fourthBody">
+        <Row>
+          <Col>
+            <h1 className="headerTextMaroon">Contribute to the Community</h1>
+            <h1 className="headerTextGray">
+              If you see a tree in your neighborhood who’s fruit sadly goes
+              unpicked, enter it in the Fruit Tree Finder. Simply sign in, add a
+              tree and voila! You will have made a small yet power contribution
+              to help those in want and reduce needless food waste.
+            </h1>
+          </Col>
+
+          <Col>
+            <img className="still" src={four} alt="Logo" />
+          </Col>
+    
         </Row>
       </Container>
     </Container>

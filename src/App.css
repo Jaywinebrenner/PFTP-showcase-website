@@ -6,9 +6,17 @@
 .homeContainer {
   height: 4000px;
 }
+img {
+  margin-bottom: 50px;
+  color: gray;
+}
 
 h1, h2, h3, h4, h5 {
   color: gray;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .headerContainer {
@@ -34,7 +42,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .secondBody {
-  margin-top: 200px;
+  margin-top: 300px;
    text-align: center;
 }
 
@@ -50,4 +58,17 @@ color: gray;
   font-weight: bold;
   font-size: 40px;
   line-height: 50px;
+}
+.still {
+  height: 400px;
+}
+
+.thridBody {
+    margin-top: 300px;
+   text-align: center;
+}
+
+.fourthBody {
+   margin-top: 300px;
+   text-align: center;
 }

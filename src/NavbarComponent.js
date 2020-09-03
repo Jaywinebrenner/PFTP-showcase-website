@@ -28,8 +28,12 @@ const NavbarComponent = () => {
         <NavItem>
           <NavLink href="https://github.com/Jaywinebrenner">GitHub</NavLink>
         </NavItem>
+        <NavItem>
+          <NavLink href="https://jaywinebrenner.github.io/resume2020/">
+            Website
+          </NavLink>
+        </NavItem>
         <UncontrolledDropdown nav inNavbar>
-
           <DropdownMenu right>
             <DropdownItem>Option 1</DropdownItem>
             <DropdownItem>Option 2</DropdownItem>

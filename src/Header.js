@@ -6,8 +6,14 @@ import NavbarComponent from "./NavbarComponent";
 const Header = () => {
   return (
     <Container className="headerContainer">
-      <h1>Portland Fruit Tree Website Mobile App Website</h1>
-      <img className="logo" src={logo} alt="Logo" />;
+      {/* <h1>Portland Fruit Tree Website Mobile App Website</h1> */}
+      <img className="logo" src={logo} alt="Logo" />
+      <h5>
+        This website showcases the Mobile App for the Portland Fruit Tree
+        Project Mobile Application by Jay Winebrenner. It is a cross platform,
+        serverless app using React Native, Firebase and Redux. 
+      </h5>
+      <p className="italic">NOTE: This site intended to showcase my website building skills.</p>
     </Container>
   );
 };
