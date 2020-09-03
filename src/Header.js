@@ -13,7 +13,7 @@ const Header = () => {
         Project Mobile Application by Jay Winebrenner. It is a cross platform,
         serverless app using React Native, Firebase, Geolocation Tracking and Redux. 
       </h5>
-      <p className="italic">NOTE: This site intended to showcase my website building skills.</p>
+      <p className="italic">NOTE: This site is not intended to showcase my website building skills.</p>
     </Container>
   );
 };
