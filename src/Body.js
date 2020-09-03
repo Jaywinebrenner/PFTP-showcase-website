@@ -89,7 +89,7 @@ const Body = () => {
       <Container className="summaryBody">
         <h1 className="headerTextMaroon">Summary</h1>
         <h6 className="headerTextGray">
-          This app was an idea I came up with and pitched to local non-profit Portland Fruit Tree Finder. My goal is to create a vibrant
+          This app was an idea I came up with and pitched to local non-profit Portland Fruit Tree Project. My goal is to create a vibrant
           community of people who input trees to document the Portland metro
           area of all the uneaten fruit that falls to waste. I ultimately
           foresee this application as a vibrant community resource where one
