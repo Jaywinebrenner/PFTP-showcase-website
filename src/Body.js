@@ -33,10 +33,9 @@ const Body = () => {
           <Col>
             <h1 className="headerTextMaroon">Find Trees </h1>
             <h1 className="headerTextGray">
-              Simply open the Fruit Tree Finder and browse the map containing
-              all of the trees available for gleaning in your area.  A bottom
-              drawer lists the trees by how close they are to your current
-              location.
+              Simply open the App and browse the map containing all of the trees
+              available for gleaning in your area.  A bottom drawer lists the
+              trees by how close they are to your current location.
             </h1>
           </Col>
 
@@ -60,10 +59,10 @@ const Body = () => {
             <img className="still" src={three} alt="Logo" />
           </Col>
           <p className="italic">
-            NOTE: Verified Trees are not yet in the database. Verified trees are
-            trees who are connected with the PFTP and are happy to share their
-            bounty with hungry gleaners. Non-verified trees are user submitted
-            trees.
+            Note: Verified trees are inputted by the admin and are sanctioned
+            for gleaning by the Portland Fruit Tree Project. Non-verified trees
+            are user submitted trees. Each tree type is denoted by custom tree
+            markers.
           </p>
         </Row>
       </Container>
@@ -81,20 +80,24 @@ const Body = () => {
           </Col>
 
           <Col>
-            <img className="still" src={four} alt="Logo" />
+            <img className="stillFour" src={four} alt="Logo" />
           </Col>
+          <p className="italic">
+            Note: Upon signing in, the dropdown will allow users to filter the trees by Verfied Trees, All Trees and a new available option of My Trees. The My Trees filter displays the user submitted trees with a third custom tree marker. Full CRUD functionality is available with this option. 
+          </p>
         </Row>
       </Container>
 
       <Container className="summaryBody">
         <h1 className="headerTextMaroon">Summary</h1>
         <h6 className="headerTextGray">
-          This app was an idea I came up with and pitched to local non-profit Portland Fruit Tree Project. My goal is to create a vibrant
-          community of people who input trees to document the Portland metro
-          area of all the uneaten fruit that falls to waste. I ultimately
-          foresee this application as a vibrant community resource where one
-          could simply open the app, go on a stroll and glean your breakfast,
-          snacks, fruit for jams or pies.
+          This app was an idea I came up with and pitched to local non-profit
+          Portland Fruit Tree Project. My goal is to create a vibrant community
+          of people who input trees to document the Portland metro area of all
+          the uneaten fruit that falls to waste. I ultimately foresee this
+          application as a vibrant community resource where one could simply
+          open the app, go on a stroll and glean your breakfast, snacks, fruit
+          for jams or pies.
         </h6>
       </Container>
     </Container>
